@@ -12,7 +12,7 @@
       guess
       (sqrt-iter (improve guess x) x)))
 (define (sqrt x)
-  (sqrt-iter 1 x))
+  (sqrt-iter 1.0 x))
 (sqrt 2)
 (sqrt 3)
 (sqrt 49)
