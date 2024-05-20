@@ -14,3 +14,5 @@
 (my-proc 2 2 1)
 
 (my-proc 1 1 1)
+
+(my-proc 7 2 5)
