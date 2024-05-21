@@ -1,1 +1,12 @@
 #lang sicp
+(define (p) (p))
+(define (test x y)
+  (if (= x 0) 0 y))
+(test 0 (p))
+;;Under applicative order evaluation, which is used by the interpreter
+;;The arguments to the test procedure will be evaluated
+;;Creating an infinite loop, because p points to p, etc.
+;;Under normal order evaluation, we will expand the whole expression,
+;;before attempting to replace the arguments with primitives.
+;;Hence we will get (if (= 0 0) 0 (p))
+;;
