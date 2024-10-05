@@ -1,5 +1,5 @@
 # SICP Follow-through
-This is my effort to go through the SICP book (Structure and Interpretation of Computer Programs - Second Edition by Harold Abelson and Gerald Jay Sussman) and follow through with the exercises part of the chapters.
+Going through the SICP book (Structure and Interpretation of Computer Programs - Second Edition by Harold Abelson and Gerald Jay Sussman) and following through with the exercises part of the chapters.
 
 ## Table of Contents
 - [Usage](#usage)
